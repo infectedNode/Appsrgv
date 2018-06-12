@@ -1,0 +1,109 @@
+body{
+	background-color: black;
+	color: white;
+	opacity: 0.7;
+}
+
+#left{
+	position: relative;
+	margin-left: 60px;
+	padding: 20px;
+}
+
+#left > .logo{
+	margin-bottom: 100px;
+}
+
+#left > .top{
+	margin-bottom: 250px;
+}
+
+#left > .top > .col-md-8{
+	padding: 0 60px 0 10px
+}
+
+#left > .top > .col-md-8 > h5{
+	border: 1px solid white;
+	padding: 10px 10px 10px 15px;
+	width: 300px;
+}
+
+#left > .top > .col-md-8 > p{
+	margin: 15px 0;
+	font-size: 15px;
+}
+#left > .top > .col-md-8 > h1{
+	font-size: 50px;
+}
+
+#left > .bottom{
+	padding-left: 10px;	
+}
+
+#left > .bottom > h1{	
+	padding-right: 200px;
+	margin-bottom: 80px;
+}
+
+#left > .bottom > .row{
+	margin-bottom: 60px;
+}
+
+#left > .bottom > .row > .col-md-3 > img{
+	width: 150px;
+	height: 150px;
+}
+
+#left > .bottom > .row > .col-md-9{
+	padding: 10px 100px 10px 0;
+}
+
+#left > .bottom > .row > .col-md-9 > h3{
+	margin-bottom: 20px;
+}
+
+#right{
+	width: 30vw;
+	position: fixed;
+	overflow: hidden;
+	right: 80px;
+	top: 220px;
+}
+
+#right > h1{
+	margin-bottom: 20px;
+}
+
+#right > button{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 20px;
+	letter-spacing: 2px;
+	
+}
+
+#right > button > a{
+	color: white;
+}
+
+#right > button > a:hover{
+	text-decoration: none;
+}
+
+#right > .email{
+	background-color: red;
+}
+
+#right > .email:hover{
+	text-decoration: none;
+	background-color: #DF5F58;
+}
+
+#right > .user{
+	background: blue;
+}
+
+#right > .user:hover{
+	text-decoration: none;
+	background-color: #5C6DDF;
+}
